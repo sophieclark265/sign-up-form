@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container * {
+  display: flex;
+}
+
+.image-container {
+  display: flex;
+  background-image: url(assets/sign-up-form-picture.jpg);
+}
+
+.section-1 {
+  flex-direction: column;
+  background-color: rgb(246, 247, 247);
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+.section-2 {
+  padding: 25px;
+}
+
+form {
+  flex-direction: column;
+}
+.section-3 {
+  flex-direction: column;
+  background-color: rgb(246, 247, 247);
+  flex-grow: 1;
+  padding: 25px;
+}
+
+.outside-form-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.form-section {
+  display: flex;
+  flex-grow: 1;
+}
+
+.section-container {
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.logo-container {
+  background-image: url(https://unsplash.com/photos/xEMWOXhMlrI);
+  height: 400px;
+  width: 200px;
+}
+
+.final-step-wrapper {
+  flex-direction: column;
+}
