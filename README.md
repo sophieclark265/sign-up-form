@@ -1,4 +1,4 @@
-# TOP-sign-up-form
+# sign-up-form
 
 Landing page with sign up form.
 
